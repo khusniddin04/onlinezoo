@@ -1,0 +1,128 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.leave__feedback {
+  padding: 46px 60px 56px;
+  border-radius: 20px;
+  width: 568px;
+  height: 713px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  margin: auto;
+}
+.feedback__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.leave__feedback h4 {
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+.leave__feedback label {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+#name {
+  padding-left: 8px;
+  width: 100%;
+  height: 54px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 8px 0 20px;
+}
+#email {
+  padding-left: 8px;
+  width: 100%;
+  height: 54px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 8px 0 20px;
+}
+#feedback1 {
+  padding-left: 8px;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  border: none;
+  margin: 8px 0 32px;
+}
+.leave__feedback form button {
+  width: 100%;
+  border-radius: 100px;
+  height: 40px;
+  box-shadow: 0 2px 20px 0 rgba(185, 213, 217, 0.6);
+  background: #2a8088;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c5e1e5;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .leave__feedback h4 {
+    font-size: 18px;
+  }
+  .leave__feedback label {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0d444d;
+  }
+  .leave__feedback {
+    width: 454px;
+    padding: 30px;
+    height: 672px;
+  }
+}
+@media (max-width: 520px) {
+  #name {
+    height: 40px;
+  }
+  #email {
+    margin: 6px 0 28px;
+    height: 40px;
+  }
+  #feedback1 {
+    height: 158px;
+    margin: 6px 0 28px;
+  }
+  .leave__feedback {
+    width: 320px;
+    height: 547px;
+    padding: 30px 10px 31px;
+    border-radius: 20px;
+  }
+  .feedback__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback__content a {
+    top: -11px; 
+    right: 8px;
+    position: absolute;
+  }
+  .feedback__content h4 {
+    text-align: center;
+  }
+}

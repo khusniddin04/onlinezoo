@@ -1,0 +1,132 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.contact__card {
+  padding: 46px 60px 56px;
+  border-radius: 20px;
+  width: 568px;
+  height: 713px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  margin: auto;
+}
+.contact__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.contact__card h4 {
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+.contact__card label {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+#name {
+  padding-left: 8px;
+  width: 100%;
+  height: 54px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 8px 0 20px;
+}
+#email {
+  padding-left: 8px;
+  width: 100%;
+  height: 54px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 8px 0 20px;
+}
+#message {
+  padding-left: 8px;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  border: none;
+  margin: 8px 0 32px;
+}
+.contact__card form button {
+  width: 100%;
+  border-radius: 100px;
+  height: 40px;
+  box-shadow: 0 2px 20px 0 rgba(185, 213, 217, 0.6);
+  background: #2a8088;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c5e1e5;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .contact__card h4 {
+    font-size: 18px;
+  }
+  .contact__card label {
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0d444d;
+  }
+  .contact__card {
+    width: 454px;
+    padding: 30px;
+    height: 672px;
+  }
+}
+@media (max-width: 520px) {
+  .contact {
+    padding: 20px 0;
+  }
+  #name {
+    height: 40px;
+  }
+  #email {
+    margin: 6px 0 28px;
+    height: 40px;
+  }
+  #message {
+    height: 158px;
+    margin: 6px 0 28px;
+  }
+  .contact__card {
+    width: 320px;
+    height: 547px;
+    padding: 30px 10px 31px;
+    border-radius: 20px;
+  }
+  .contact__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact__content a {
+    top: -11px;
+    right: 8px;
+    position: absolute;
+  }
+  .contact__content h4 {
+    text-align: center;
+  }
+}

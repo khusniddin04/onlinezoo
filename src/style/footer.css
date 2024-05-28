@@ -1,0 +1,115 @@
+footer {
+  padding: 17px 31px 20.39px 30px;
+  background-color: #196469;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+}
+.footer__list li a {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #c5e1e5;
+}
+.footer__list li {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #c5e1e5;
+}
+.footer__list li:nth-of-type(1) .active::after {
+  content: " ";
+  background: #c5e1e5;
+  width: 55px;
+  height: 2px;
+  display: block;
+  margin-bottom: 2px;
+  position: absolute;
+}
+.footer__list li:nth-of-type(2) .active::after {
+  content: " ";
+  background: #c5e1e5;
+  width: 35px;
+  height: 2px;
+  display: block;
+  margin-bottom: 2px;
+  position: absolute;
+}
+.footer__list li:nth-of-type(3) .active::after {
+  content: " ";
+  background: #c5e1e5;
+  width: 46px;
+  height: 2px;
+  display: block;
+  margin-bottom: 2px;
+  position: absolute;
+}
+.footer__list li:nth-of-type(4) .active::after {
+  content: " ";
+  background: #c5e1e5;
+  width: 108px;
+  height: 2px;
+  display: block;
+  margin-bottom: 2px;
+  position: absolute;
+}
+.description p:nth-of-type(1) {
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.description p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #fff;
+}
+@media (max-width: 1080px) {
+  .footer {
+    padding: 22px 13px 18px 5px;
+  }
+  .footer__list {
+    display: none;
+  }
+  .footer_logo {
+    width: 49px;
+    height: 38px;
+  }
+  .description p:nth-of-type(1) {
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+  }
+  .description p:nth-of-type(2  ) {
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+  }
+}
+@media(max-width: 400px) {
+   .footer {
+    padding: 22px 0px 18px 0;
+   } 
+}

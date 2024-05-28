@@ -1,0 +1,8 @@
+.zooeagle .zoo_img2 {
+  width: 90px !important;
+}
+@media (max-width: 1010px) {
+  .zooeagle .zoo_img2 {
+    width: 60px !important;
+  }
+}

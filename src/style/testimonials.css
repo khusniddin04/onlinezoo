@@ -1,0 +1,184 @@
+.testimonials {
+  margin-bottom: 50px;
+}
+.testimonials__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+.testimonials__top h2 {
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+.testimonials__top a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #19707d;
+  border: 1.5px solid #19707d;
+  border-radius: 100px;
+  padding: 8px 20px;
+}
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.testimonialsCard__top {
+  position: relative;
+  padding: 28px 0 80px 45px;
+  width: 367px;
+  height: 190px;
+  background: #fff;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+}
+.testimonialsCard__top div {
+  position: absolute;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  width: 22px;
+  height: 40px;
+  background-color: #f8f5f5;
+  bottom: -20px;
+  z-index: -1;
+  left: 55px;
+}
+.testimonialsCard__top p:nth-of-type(1) {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b3b3b3;
+  margin-bottom: 9px;
+}
+.testimonialsCard__top p:nth-of-type(2) {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2d2d2d;
+  width: 222px;
+}
+.testimonialCard__bottom {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.testimonialCard__bottom h4 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+.responsive_leave_btn {
+    display: none;
+}
+@media (max-width: 1195px) {
+  .testimonials__grid {
+    gap: 25px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 950px) {
+  .testimonials__top h2 {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #0d444d;
+  }
+  .testimonials__top a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #19707d;
+    border: 1.5px solid #19707d;
+    border-radius: 100px;
+    padding: 8px 20px;
+  }
+  .testimonialsCard__top {
+    position: relative;
+    padding: 18px 12px 20px 14px;
+    width: 256px;
+    height: 150px;
+    background: #fff;
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+  }
+  .testimonialsCard__top p:nth-of-type(2) {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2d2d2d;
+    width: 230px;
+  }
+  .testimonialCard__bottom img {
+    width: 40px;
+    height: 40px;
+  }
+  .testimonialCard__bottom h4 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+  }
+}
+@media(max-width: 640px) {
+    .testimonials__grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .testimonialsCard__top {
+        width: 300px;
+        height: 130px;
+        padding: 18px 0 0px 14px;
+    }
+    .testimonialsCard__top p:nth-of-type(2) {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        color: #2d2d2d;
+        width: 286px;
+        margin-top: 11px;
+    }
+    .testimonialsCard__top p:nth-of-type(1) {
+        font-size: 12px;
+    }
+    .testimonialCard__bottom {
+        padding-left: 20px;
+    }
+    .testimonials__top a {
+        display: none;
+    }
+    .testimonials__top {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .responsive_leave_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #19707d;
+        border: 1.5px solid #19707d;
+        border-radius: 100px;
+        padding: 2px 45px 1;
+        width: 300px;
+        height: 40px;
+        margin-top: 22px;
+    }
+}
